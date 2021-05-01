@@ -1,0 +1,504 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 12px;
+  color: #333;
+}
+
+html {
+  min-width: 1100px;
+}
+
+/* 主导航栏 */
+
+.nav-wrapper {
+  height: 70px;
+  background: #242424;
+}
+
+.nav {
+  margin: 0 auto;
+  width: 1100px;
+  height: 70px;
+  box-sizing: border-box;
+  background: #242424;
+  border-bottom: 1px solid #000;
+}
+
+/* 网易云logo */
+.nav .logo {
+  float: left;
+  width: 176px;
+  height: 69px;
+  background: url(../images/1.png) no-repeat;
+  background-position: 0 0;
+}
+
+.nav .logo a {
+  float: left;
+  width: 157px;
+  height: 100%;
+  padding-right: 20px;
+}
+
+.nav ul li {
+  float: left;
+}
+
+.nav ul li a {
+  float: left;
+  height: 100%;
+  padding: 0 19px;
+}
+
+.nav ul li a:hover {
+  background: #000;
+  color: #fff;
+}
+
+.nav ul li a p {
+  display: inline-block;
+  height: 100%;
+  line-height: 69px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.nav ul li sub {
+  position: absolute;
+  left: 50%;
+  top: 64px;
+  width: 12px;
+  height: 7px;
+  margin-left: -6px;
+  overflow: hidden;
+  background: url(../images/1.png) no-repeat;
+  background-position: -226px 0;
+}
+
+.nav ul li {
+  position: relative;
+}
+
+.nav ul .lst span {
+  position: absolute;
+  top: 21px;
+  left: 100px;
+  width: 28px;
+  height: 19px;
+  background: url(../images/1.png) no-repeat;
+  background-position: -190px 0;
+}
+
+.nav .login {
+  position: relative;
+}
+
+.nav .login a {
+  float: right;
+  width: 28px;
+  height: 16px;
+  margin: 27px 22px 0 20px;
+  color: #787878;
+}
+
+.nav .login a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+.nav .login .inner {
+  display: none;
+  position: absolute;
+  top: 58px;
+  right: -43px;
+  width: 158px;
+  background: #202020;
+  border: 1px solid #202020;
+}
+
+.nav .login .inner .arr {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  width: 14px;
+  height: 8px;
+  margin-left: -7px;
+  background: url(../images/2.png) no-repeat;
+  background-position: -20px 0;
+}
+
+.nav .login:hover .inner {
+  display: block;
+}
+
+.nav .creator-center a {
+  float: right;
+  width: 90px;
+  height: 32px;
+  margin: 19px 0 0 12px;
+  box-sizing: border-box;
+  padding-left: 16px;
+  border: 1px solid #4f4f4f;
+  border-radius: 20px;
+  color: #ccc;
+  line-height: 32px;
+}
+
+.nav .creator-center a:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
+.nav .srch {
+  float: right;
+  width: 158px;
+  height: 32px;
+  margin-top: 19px;
+  background: #fff;
+  border-radius: 32px;
+}
+
+.nav .srch span {
+  float: left;
+  width: 26px;
+  height: 32px;
+  background: url(../images/1.png) no-repeat;
+  background-position: 0 -99px;
+}
+
+.nav .srch input {
+  float: left;
+  margin-top: 8px;
+  width: 126px;
+  height: 16px;
+  background: transparent;
+  line-height: 16px;
+  outline: none;
+  border: 0;
+}
+
+/* 子导航栏 */
+.subnav-wrapper {
+  height: 35px;
+  background: #c20c0c;
+}
+
+.subnav {
+  margin: 0 auto;
+  width: 1100px;
+  height: 35px;
+}
+
+.subnav ul {
+  padding-left: 180px;
+}
+
+.subnav ul li a {
+  float: left;
+  height: 34px;
+}
+
+.subnav ul li a p {
+  position: relative;
+  height: 20px;
+  padding: 0 13px;
+  margin: 7px 17px 0;
+  border-radius: 20px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.subnav ul li a:hover p {
+  background: #9b0909;
+}
+
+.subnav ul li a span {
+  position: absolute;
+  top: 2px;
+  width: 8px;
+  height: 8px;
+  background: url(../images/R.png) no-repeat;
+  background-size: cover;
+}
+
+/* 推荐-轮播图 */
+.banner_wrpper {
+  width: 100%;
+  background-size: cover;
+}
+
+.banner {
+  position: relative;
+  width: 982px;
+  height: 285px;
+  margin: 0 auto;
+  background: rgb(226, 156, 156);
+}
+
+.banl {
+  width: 730px;
+  height: 100%;
+}
+
+.banl .hid {
+  position: relative;
+  overflow: hidden;
+  width: 730px;
+  height: 285px;
+}
+
+.banl ul {
+  position: absolute;
+  width: 1200%;
+}
+
+.banl ul li {
+  float: left;
+}
+
+.banl img {
+  width: 730px;
+}
+
+.banl > a {
+  position: absolute;
+  top: 50%;
+  margin-top: -31px;
+  width: 37px;
+  height: 63px;
+  background: url(../images/banner.png) no-repeat;
+  z-index: 9;
+}
+
+.banl .arrowl {
+  left: -68px;
+  background-position: 0 -360px;
+}
+
+.banl .arrowl:hover {
+  background-position: 0 -430px;
+}
+
+.banl .arrowr {
+  right: -68px;
+  background-position: 0 -508px;
+}
+
+.banl .arrowr:hover {
+  background-position: 0 -578px;
+}
+
+.banl ol {
+  position: absolute;
+  top: 259px;
+  left: 249px;
+}
+
+.banl ol li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  background: url(../images/banner.png);
+  background-position: 3px -343px;
+}
+
+.banl ol .current {
+  background-position: -16px -343px;
+}
+
+.banr {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 252px;
+  height: 284px;
+  background: url(../images/d.png);
+}
+
+.banr > a {
+  display: block;
+  width: 214px;
+  height: 56px;
+  margin: 187px 0 0 19px;
+}
+
+/* 推荐-内容 */
+.main-wrapper {
+  background: #f5f5f5;
+}
+
+.main {
+  width: 980px;
+  height: 1433px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+/* 底部 */
+.ft-wrapper {
+  width: 100%;
+  height: 172px;
+  border-top: 1px solid #d3d3d3;
+  background: #f2f2f2;
+}
+
+.ft {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.ft .copy {
+  float: left;
+  width: 520px;
+  padding-top: 15px;
+  line-height: 24px;
+}
+
+.ft .copy .fc1 {
+  color: #999;
+}
+
+.ft .copy .line {
+  margin: 0 8px 0 10px;
+  color: #c2c2c2;
+}
+
+.ft .copy .fc2 {
+  color: #666;
+}
+
+.ft .copy .fc2 a {
+  color: #666;
+}
+
+.ft .copy .fc2-1 {
+  margin-right: 14px;
+}
+
+.ft .copy .fc2 .email {
+  color: #333;
+}
+
+.ft .copy .fc2 .police-logo {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
+  vertical-align: -2px;
+  background: url(../images/police.png) no-repeat;
+  background-size: cover;
+}
+
+.ft .copy a:hover {
+  text-decoration: underline;
+}
+
+.ft ul {
+  float: right;
+  width: 420px;
+  margin-top: 33px;
+}
+
+.ft ul li {
+  float: left;
+  width: 60px;
+  height: 70px;
+  margin-left: 30px;
+  color: #666;
+}
+
+.ft ul li:first-child {
+  margin-left: 0;
+}
+
+.ft ul li a {
+  display: block;
+  width: 50px;
+  height: 45px;
+  margin: 0 auto;
+  background: url(../images/footer-enter.png) no-repeat;
+  background-size: 110px 552px;
+}
+
+.ft ul li .ft-logo1 {
+  background-position: -60px -456.5px;
+}
+
+.ft ul li .ft-logo2 {
+  background-position: -60px -101px;
+}
+
+.ft ul li .ft-logo3 {
+  background-position: 0 0;
+}
+
+.ft ul li .ft-logo4 {
+  background-position: -60px -50px;
+}
+
+.ft ul li .ft-logo5 {
+  background-position: 0 -101px;
+}
+
+.ft ul li span {
+  float: right;
+  margin-top: 5px;
+  width: 52px;
+  height: 14px;
+  background: url(../images/foot-enter-tt.png) no-repeat;
+  background-size: 180px 139px;
+}
+
+.ft ul li .ft-tt1 {
+  margin-right: -8px;
+  width: 72px;
+  background-position: 0 -108px;
+}
+
+.ft ul li .ft-tt2 {
+  background-position: -1px -91px;
+}
+
+.ft ul li .ft-tt3 {
+  margin-right: 4px;
+  background-position: 0 0;
+}
+
+.ft ul li .ft-tt4 {
+  margin-right: 2px;
+  background-position: 0 -54px;
+}
+
+.ft ul li .ft-tt5 {
+  margin-right: 4px;
+  background-position: -1px -72px;
+}
+
+/* 回到顶部 */
+.back {
+  display: none;
+  position: fixed;
+  left: 50%;
+  margin-left: 500px;
+  bottom: 160px;
+  width: 49px;
+  height: 44px;
+  background: url(../images/sprite1.png) no-repeat;
+  background-position: -265px -47px;
+}

@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 头部导航栏 */
+
+.h-top-w {
+  height: 70px;
+  background: #242424;
+}
+
+.h-b-w {
+  height: 35px;
+  background: #c20c0c;
+}
+
+.h-top {
+  margin: 0 auto;
+  width: 1100px;
+  height: 70px;
+  box-sizing: border-box;
+  background: #242424;
+  border-bottom: 1px solid #000;
+}
+
+/* 网易云logo */
+.h-top .logo {
+  float: left;
+  width: 176px;
+  height: 69px;
+  background: url(images/1.png);
+  background-position: 0 0;
+}
+
+.h-top .logo a {
+  float: left;
+  width: 157px;
+  height: 100%;
+  padding-right: 20px;
+}
+
+.h-top ul li {
+  float: left;
+}
+
+.h-top ul li a {
+  float: left;
+  height: 100%;
+  padding: 0 19px;
+}
+
+.h-top ul li a p {
+  display: inline-block;
+  height: 100%;
+  line-height: 69px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.h-top ul .lst {
+  position: relative;
+}
+
+.h-top ul .lst span {
+  position: absolute;
+  top: 21px;
+  left: 100px;
+  width: 28px;
+  height: 19px;
+  background: url(images/1.png);
+  background-position: -190px 0;
+}
+
+.h-top .login {
+  float: right;
+  height: 45px;
+  margin: 19px 0 0 20px;
+  padding: 0 22px 0 0;
+}
+
+.h-top .login a {
+  display: block;
+  width: 28px;
+  margin-top: 7px;
+  color: #787878;
+  font-size: 12px;
+}
+
+.h-top .creator-center {
+  float: right;
+  width: 90px;
+  height: 32px;
+  margin: 19px 0 0 12px;
+  box-sizing: border-box;
+  padding-left: 16px;
+  border: 1px solid #4f4f4f;
+  border-radius: 20px;
+}
+
+.h-top .creator-center a {
+  font-size: 12px;
+  color: #ccc;
+  line-height: 30px;
+}
+
+.h-top .srch {
+  float: right;
+  width: 158px;
+  height: 32px;
+  margin-top: 19px;
+  background: #fff;
+  border-radius: 32px;
+  background: url(images/1.png);
+  background-position: -5px -12px;
+}
+
+/* .h-top .srch input {
+  width: 95%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: #fff;
+  line-height: 16px;
+} */
+
+.h-b {
+  margin: 0 auto;
+  width: 1100px;
+  height: 35px;
+  background: rgb(128, 88, 88);
+}

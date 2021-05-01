@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 12px;
+}
+
+/* 主导航栏 */
+
+.nav-wrapper {
+  height: 70px;
+  background: #242424;
+}
+
+.nav {
+  margin: 0 auto;
+  width: 1100px;
+  height: 70px;
+  box-sizing: border-box;
+  background: #242424;
+  border-bottom: 1px solid #000;
+}
+
+/* 网易云logo */
+.nav .logo {
+  float: left;
+  width: 176px;
+  height: 69px;
+  background: url(images/1.png);
+  background-position: 0 0;
+}
+
+.nav .logo a {
+  float: left;
+  width: 157px;
+  height: 100%;
+  padding-right: 20px;
+}
+
+.nav ul li {
+  float: left;
+}
+
+.nav ul li a {
+  float: left;
+  height: 100%;
+  padding: 0 19px;
+}
+
+.nav ul li a:hover {
+  background: #000;
+  color: #fff;
+}
+
+.nav ul li a p {
+  display: inline-block;
+  height: 100%;
+  line-height: 69px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.nav ul li sub {
+  position: absolute;
+  left: 50%;
+  top: 64px;
+  width: 12px;
+  height: 7px;
+  margin-left: -6px;
+  overflow: hidden;
+  background: url(images/1.png);
+  background-position: -226px 0;
+}
+
+.nav ul li {
+  position: relative;
+}
+
+.nav ul .lst span {
+  position: absolute;
+  top: 21px;
+  left: 100px;
+  width: 28px;
+  height: 19px;
+  background: url(images/1.png);
+  background-position: -190px 0;
+}
+
+.nav .login {
+  position: relative;
+}
+
+.nav .login a {
+  float: right;
+  width: 28px;
+  height: 16px;
+  margin: 27px 0 0 20px;
+  padding: 0 22px 0 0;
+  color: #787878;
+}
+
+.nav .login a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+.nav .login .hide {
+  display: none;
+  position: absolute;
+  top: 58px;
+  right: -43px;
+  width: 158px;
+  border: 1px solid #202020;
+  box-shadow: 0 8px 24px 0 rgb(0 0 0 / 50%);
+}
+
+.nav .login .hide .arr {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  width: 14px;
+  height: 8px;
+  margin-left: -7px;
+  background: url(images/2.png);
+  background-position: -20px 0;
+}
+
+.nav .creator-center a {
+  float: right;
+  width: 90px;
+  height: 32px;
+  margin: 19px 0 0 12px;
+  box-sizing: border-box;
+  padding-left: 16px;
+  border: 1px solid #4f4f4f;
+  border-radius: 20px;
+  color: #ccc;
+  line-height: 32px;
+}
+
+.nav .creator-center a:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
+.nav .srch {
+  float: right;
+  width: 158px;
+  height: 32px;
+  margin-top: 19px;
+  background: #fff;
+  border-radius: 32px;
+}
+
+.nav .srch span {
+  float: left;
+  width: 26px;
+  height: 32px;
+  background: url(images/1.png);
+  background-position: 0 -99px;
+}
+
+.nav .srch input {
+  float: left;
+  margin-top: 8px;
+  width: 126px;
+  height: 16px;
+  background: transparent;
+  line-height: 16px;
+  outline: none;
+  border: 0;
+}
+
+/* 子导航栏 */
+.subnav-wrapper {
+  height: 35px;
+  background: #c20c0c;
+}
+
+.subnav {
+  margin: 0 auto;
+  width: 1100px;
+  height: 35px;
+}
+
+.subnav ul {
+  padding-left: 180px;
+}
+
+.subnav ul li a {
+  float: left;
+  height: 34px;
+}
+
+.subnav ul li a p {
+  position: relative;
+  height: 20px;
+  padding: 0 13px;
+  margin: 7px 17px 0;
+  border-radius: 20px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.subnav ul li a:hover p {
+  background: #9b0909;
+}
+
+.subnav ul li a span {
+  position: absolute;
+  top: 2px;
+  width: 8px;
+  height: 8px;
+  background: url(images/R.png);
+  background-size: cover;
+}

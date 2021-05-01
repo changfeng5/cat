@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 头部导航栏 */
+.header-wrapper {
+  height: 500px;
+  background: rgb(201, 235, 207);
+}
+
+.header {
+  margin: 0 auto;
+  width: 1533px;
+  height: 500px;
+  background: rgb(214, 183, 183);
+}
